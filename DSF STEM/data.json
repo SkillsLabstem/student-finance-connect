@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "note": "SAMPLE DATA. Replace every entry with details confirmed from official UTech, Jamaica sources. Set \"verified\" to true only after checking."
+  },
+  "departments": [
+    {
+      "id": "student-finance",
+      "name": "Student Finance Department",
+      "role": "Tuition billing, payment plans, refunds, financial holds and student accounts.",
+      "email": "",
+      "phone": "",
+      "location": "To be confirmed",
+      "hours": "To be confirmed",
+      "verified": false
+    },
+    {
+      "id": "cashier",
+      "name": "Cashier / Payments Office",
+      "role": "Accepts payments and issues receipts.",
+      "email": "",
+      "phone": "",
+      "location": "To be confirmed",
+      "hours": "To be confirmed",
+      "verified": false
+    },
+    {
+      "id": "registry",
+      "name": "Registry / Admissions and Records",
+      "role": "Registration, transcripts, enrolment verification and academic holds.",
+      "email": "",
+      "phone": "",
+      "location": "To be confirmed",
+      "hours": "To be confirmed",
+      "verified": false
+    },
+    {
+      "id": "financial-aid",
+      "name": "Scholarships and Financial Aid Office",
+      "role": "Scholarships, bursaries and student loan support documentation.",
+      "email": "",
+      "phone": "",
+      "location": "To be confirmed",
+      "hours": "To be confirmed",
+      "verified": false
+    }
+  ],
+  "forms": [
+    {
+      "id": "payment-plan",
+      "name": "Payment Plan Request",
+      "category": "Payments",
+      "description": "Ask to pay your tuition and fees in instalments instead of one lump sum.",
+      "requirements": ["Student ID number", "Current fee statement", "Proposed instalment schedule", "Supporting documents if requested"],
+      "submitTo": "student-finance",
+      "method": "In person or by email (confirm with the department)",
+      "notes": "Deadlines vary by semester. Check the current academic calendar.",
+      "verified": false
+    },
+    {
+      "id": "refund",
+      "name": "Refund Request",
+      "category": "Refunds",
+      "description": "Request a refund for an overpayment or an approved fee adjustment.",
+      "requirements": ["Student ID number", "Proof of payment or receipt", "Reason for refund", "Bank details if applicable"],
+      "submitTo": "student-finance",
+      "method": "In person or by email (confirm with the department)",
+      "notes": "Processing times may vary.",
+      "verified": false
+    },
+    {
+      "id": "hold-clearance",
+      "name": "Financial Hold Clearance Request",
+      "category": "Account Issues",
+      "description": "Ask for a financial hold to be reviewed or lifted after clearing a balance.",
+      "requirements": ["Student ID number", "Proof of payment", "Description of the hold"],
+      "submitTo": "student-finance",
+      "method": "In person or by email (confirm with the department)",
+      "notes": "Bring receipts showing the balance was cleared.",
+      "verified": false
+    },
+    {
+      "id": "fee-adjustment",
+      "name": "Fee Adjustment / Query Form",
+      "category": "Account Issues",
+      "description": "Query a charge you believe is incorrect or request a review of your fees.",
+      "requirements": ["Student ID number", "Fee statement", "Details of the charge in question"],
+      "submitTo": "student-finance",
+      "method": "In person or by email (confirm with the department)",
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "receipt-copy",
+      "name": "Receipt / Statement Copy Request",
+      "category": "Payments",
+      "description": "Request a copy of a payment receipt or an account statement.",
+      "requirements": ["Student ID number", "Approximate payment date and amount"],
+      "submitTo": "cashier",
+      "method": "In person (confirm with the office)",
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "loan-letter",
+      "name": "Student Loan Support Letter Request",
+      "category": "Financial Aid",
+      "description": "Request a letter confirming your fees or enrolment for a loan or sponsor application.",
+      "requirements": ["Student ID number", "Name of loan provider or sponsor", "Registration confirmation"],
+      "submitTo": "financial-aid",
+      "method": "In person or by email (confirm with the office)",
+      "notes": "",
+      "verified": false
+    }
+  ],
+  "faculties": [
+    { "name": "Faculty of Engineering and Computing", "abbr": "FENC", "type": "Faculty", "description": "Engineering, computing and related technology programmes." },
+    { "name": "Faculty of the Built Environment", "abbr": "FOBE", "type": "Faculty", "description": "Architecture, construction, surveying and related programmes." },
+    { "name": "College of Business and Management", "abbr": "COBAM", "type": "College", "description": "Business and management programmes." },
+    { "name": "Faculty of Law", "abbr": "FOL", "type": "Faculty", "description": "Law programmes." },
+    { "name": "Faculty of Education and Liberal Studies", "abbr": "FELS", "type": "Faculty", "description": "Education and liberal studies programmes." },
+    { "name": "Faculty of Science and Sport", "abbr": "FOSS", "type": "Faculty", "description": "Science, sport and related programmes." },
+    { "name": "College of Health Sciences", "abbr": "CHS", "type": "College", "description": "Health-related programmes. Verify the current structure with the university." }
+  ],
+  "guidance": [
+    {
+      "q": "I paid my fees but my account still shows a balance.",
+      "a": "Payments can take time to post to your account.",
+      "steps": ["Keep your receipt or proof of payment.", "Allow the posting period advised by the university.", "If the balance remains, contact the Student Finance Department with your proof of payment and Student ID."]
+    },
+    {
+      "q": "I cannot register because of a financial hold.",
+      "a": "A hold usually means an outstanding balance or an unresolved account issue.",
+      "steps": ["Check your fee statement to see the balance.", "Clear the balance or arrange a payment plan.", "Submit proof of payment and ask for the hold to be reviewed."]
+    },
+    {
+      "q": "I cannot pay my full fees at once.",
+      "a": "You may be able to request a payment plan.",
+      "steps": ["Review your fee statement.", "Complete the Payment Plan Request form.", "Submit it to the Student Finance Department before the deadline."]
+    },
+    {
+      "q": "I was charged incorrectly or was overcharged.",
+      "a": "You can query the charge or request a refund.",
+      "steps": ["Gather your fee statement and receipts.", "Complete the Fee Adjustment / Query Form or the Refund Request form.", "Submit it to Student Finance and keep a copy."]
+    },
+    {
+      "q": "I lost my payment receipt.",
+      "a": "You can ask for a copy.",
+      "steps": ["Note the approximate date and amount of the payment.", "Complete the Receipt / Statement Copy Request.", "Submit it to the Cashier / Payments Office."]
+    }
+  ]
+}
