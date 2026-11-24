@@ -1,6 +1,6 @@
 {
   "meta": {
-    "note": "SAMPLE DATA. Replace every entry with details confirmed from official UTech, Jamaica sources. Set \"verified\" to true only after checking."
+    "note": "Forms directory scraped from the official UTech, Jamaica Forms page on 2026-11-24. Links point to the original UTech-hosted resources; titles and groupings preserve the source page."
   },
   "departments": [
     {
@@ -46,106 +46,435 @@
   ],
   "forms": [
     {
-      "id": "payment-plan",
-      "name": "Payment Plan Request",
-      "category": "Payments",
-      "description": "Ask to pay your tuition and fees in instalments instead of one lump sum.",
-      "requirements": ["Student ID number", "Current fee statement", "Proposed instalment schedule", "Supporting documents if requested"],
-      "submitTo": "student-finance",
-      "method": "In person or by email (confirm with the department)",
-      "notes": "Deadlines vary by semester. Check the current academic calendar.",
-      "verified": false
+      "id": "undergraduate-application",
+      "name": "Undergraduate Application Form",
+      "category": "General and Assistance",
+      "description": "Official UTech undergraduate application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_APPLICATIONForm_fillable.pdf",
+      "verified": true,
+      "fileName": "Undergraduate-Application-Form.pdf"
     },
     {
-      "id": "refund",
-      "name": "Refund Request",
-      "category": "Refunds",
-      "description": "Request a refund for an overpayment or an approved fee adjustment.",
-      "requirements": ["Student ID number", "Proof of payment or receipt", "Reason for refund", "Bank details if applicable"],
-      "submitTo": "student-finance",
-      "method": "In person or by email (confirm with the department)",
-      "notes": "Processing times may vary.",
-      "verified": false
+      "id": "graduate-application",
+      "name": "Graduate Application Form",
+      "category": "General and Assistance",
+      "description": "Official UTech graduate application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_GraduateApplicationForm_FILLABLE.pdf",
+      "verified": true,
+      "fileName": "Graduate-Application-Form.pdf"
     },
     {
-      "id": "hold-clearance",
-      "name": "Financial Hold Clearance Request",
-      "category": "Account Issues",
-      "description": "Ask for a financial hold to be reviewed or lifted after clearing a balance.",
-      "requirements": ["Student ID number", "Proof of payment", "Description of the hold"],
-      "submitTo": "student-finance",
-      "method": "In person or by email (confirm with the department)",
-      "notes": "Bring receipts showing the balance was cleared.",
-      "verified": false
+      "id": "boarding-application",
+      "name": "Boarding Application",
+      "category": "General and Assistance",
+      "description": "Application for halls of residence accommodation.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_BoardingApplication.pdf",
+      "verified": true,
+      "fileName": "Boarding-Application.pdf"
     },
     {
-      "id": "fee-adjustment",
-      "name": "Fee Adjustment / Query Form",
-      "category": "Account Issues",
-      "description": "Query a charge you believe is incorrect or request a review of your fees.",
-      "requirements": ["Student ID number", "Fee statement", "Details of the charge in question"],
-      "submitTo": "student-finance",
-      "method": "In person or by email (confirm with the department)",
-      "notes": "",
-      "verified": false
+      "id": "general-request",
+      "name": "General Request",
+      "category": "General and Assistance",
+      "description": "Student Financing general request form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_General_Request_Revised_06.09.2020_compressed.pdf",
+      "verified": true,
+      "fileName": "General-Request.pdf"
     },
     {
-      "id": "receipt-copy",
-      "name": "Receipt / Statement Copy Request",
-      "category": "Payments",
-      "description": "Request a copy of a payment receipt or an account statement.",
-      "requirements": ["Student ID number", "Approximate payment date and amount"],
-      "submitTo": "cashier",
-      "method": "In person (confirm with the office)",
-      "notes": "",
-      "verified": false
+      "id": "welfare-lunch",
+      "name": "Welfare Lunch Application",
+      "category": "General and Assistance",
+      "description": "Welfare lunch application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Lunch-Application-Form-Updated-08.7.2026.pdf",
+      "verified": true,
+      "fileName": "Welfare-Lunch-Application.pdf",
+      "timeFrame": "Opens September 1; closes September 25, 2026"
     },
     {
-      "id": "loan-letter",
-      "name": "Student Loan Support Letter Request",
-      "category": "Financial Aid",
-      "description": "Request a letter confirming your fees or enrolment for a loan or sponsor application.",
-      "requirements": ["Student ID number", "Name of loan provider or sponsor", "Registration confirmation"],
-      "submitTo": "financial-aid",
-      "method": "In person or by email (confirm with the office)",
-      "notes": "",
-      "verified": false
+      "id": "graduate-welfare-lunch",
+      "name": "Graduate Welfare Lunch Application",
+      "category": "General and Assistance",
+      "description": "Graduate welfare lunch application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Lunch-Application-Form-Updated-10.9.2025.pdf",
+      "verified": true,
+      "fileName": "Graduate-Welfare-Lunch-Application.pdf",
+      "timeFrame": "Opens September 1; closes September 25, 2026"
+    },
+    {
+      "id": "welfare-grant",
+      "name": "Welfare Grant Application",
+      "category": "General and Assistance",
+      "description": "Welfare grant application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Grant-Application-Form-Updated-08.07.2026.pdf",
+      "verified": true,
+      "fileName": "Welfare-Grant-Application.pdf",
+      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page"
+    },
+    {
+      "id": "graduate-welfare-grant",
+      "name": "Graduate Welfare Grant Application",
+      "category": "General and Assistance",
+      "description": "Graduate welfare grant application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Grant-Form-Updated-08.07.2026.pdf",
+      "verified": true,
+      "fileName": "Graduate-Welfare-Grant-Application.pdf",
+      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page"
+    },
+    {
+      "id": "payment-error",
+      "name": "Agency or online payment error form",
+      "category": "General and Assistance",
+      "description": "Transfer request for an agency or online payment error.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Transfer_Agency_or_Online_Payment_Error_Revised_06.09.2020_compressed.pdf",
+      "verified": true,
+      "fileName": "Agency-or-online-payment-error-form.pdf"
+    },
+    {
+      "id": "sponsor-credit",
+      "name": "Sponsor or Donor Credit Balance",
+      "category": "General and Assistance",
+      "description": "Transfer request for a sponsor or donor credit balance.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Transfer_Sponsor_or_Donor_Credit_Balance_Revised_06.09.2020_compressed.pdf",
+      "verified": true,
+      "fileName": "Sponsor-or-Donor-Credit-Balance.pdf"
+    },
+    {
+      "id": "earn-study-application",
+      "name": "Earn and Study - Application (Semester 1, 2)",
+      "category": "General and Assistance",
+      "description": "Earn and Study programme application form for semesters 1 and 2.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/07/Earn-Study-Application-Form-Semester-12-2026-27.pdf",
+      "verified": true,
+      "fileName": "Earn-and-Study-Application-Semester-1-2.pdf",
+      "timeFrame": "Opens August 3, 2026; closes August 31, 2026"
+    },
+    {
+      "id": "earn-study-tuition",
+      "name": "Earn and Study - Tuition Payment",
+      "category": "General and Assistance",
+      "description": "Earn and Study tuition payment form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_DSFEarn_StudyTuition_Payment.pdf",
+      "verified": true,
+      "fileName": "Earn-and-Study-Tuition-Payment.pdf"
+    },
+    {
+      "id": "graduate-assistantship",
+      "name": "Earn and Study - Graduate Assistantship",
+      "category": "General and Assistance",
+      "description": "Graduate assistantship programme form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Assistantship-Programme-Earn-and-Study.pdf",
+      "verified": true,
+      "fileName": "Earn-and-Study-Graduate-Assistantship.pdf"
+    },
+    {
+      "id": "student-medical",
+      "name": "Student Medical (AY 2023)",
+      "category": "General and Assistance",
+      "description": "Student medical form for academic year 2023.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_MedicalForm_Students_NEW_AY_2023.pdf",
+      "verified": true,
+      "fileName": "Student-Medical-AY-2023.pdf"
+    },
+    {
+      "id": "financial-letter",
+      "name": "Financial Letter or Statement Request",
+      "category": "General and Assistance",
+      "description": "Request a financial letter or statement.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Financial_Letter_or_Statement_Request_Revised_06.09.2020_compressed.pdf",
+      "verified": true,
+      "fileName": "Financial-Letter-or-Statement-Request.pdf"
+    },
+    {
+      "id": "general-scholarship-2026",
+      "name": "General Scholarship Application Form 2026-2027",
+      "category": "General and Assistance",
+      "description": "General scholarship application form for 2026-2027.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/05/General-Scholarship-Application-Form-2026-2027.pdf",
+      "verified": true,
+      "fileName": "General-Scholarship-Application-Form-2026-2027.pdf",
+      "timeFrame": "2026–2027 academic year; separate application deadlines vary (see official form)"
+    },
+    {
+      "id": "stem-scholarship",
+      "name": "STEM Scholarship Application Form",
+      "category": "General and Assistance",
+      "description": "STEM scholarship application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/06/STEM.Scholarship.ApplicationForm.pdf",
+      "verified": true,
+      "fileName": "STEM-Scholarship-Application-Form.pdf"
+    },
+    {
+      "id": "scholarship-list-2026",
+      "name": "Scholarship List By Faculty - 2026-2027 Academic Year",
+      "category": "General and Assistance",
+      "description": "Scholarship list by faculty for the 2026-2027 academic year.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/07/Scholarship-List-By-Faculty-2026-2027-AY-Revised-July.pdf",
+      "verified": true,
+      "fileName": "Scholarship-List-By-Faculty-2026-2027-Academic-Year.pdf",
+      "timeFrame": "Opens May 25, 2026; closes July 31, 2026 for returning students and August 31, 2026 for new students"
+    },
+    {
+      "id": "path-bursary",
+      "name": "PATH Bursary Application Applications close Sept. 30, 2026",
+      "category": "General and Assistance",
+      "description": "PATH bursary application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/08/PATH.Bursary.Application.Form_.pdf",
+      "verified": true,
+      "fileName": "PATH-Bursary-Application-Applications-close-Sept-30-2026.pdf",
+      "timeFrame": "Deadline September 30, 2026"
+    },
+    {
+      "id": "student-ambassador-2026",
+      "name": "Student Ambassador Application Deadline Oct. 02, 2026",
+      "category": "General and Assistance",
+      "description": "Student Ambassador application form for 2026.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Student-Ambassador-Application-Form-2026.pdf",
+      "verified": true,
+      "fileName": "Student-Ambassador-Application-Deadline-Oct-02-2026.pdf",
+      "timeFrame": "Deadline October 2, 2026"
+    },
+    {
+      "id": "grade-forgiveness",
+      "name": "Grade Forgiveness",
+      "category": "Academic Management",
+      "description": "Grade forgiveness form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_grade_forgiveness_form.pdf",
+      "verified": true,
+      "fileName": "Grade-Forgiveness.pdf"
+    },
+    {
+      "id": "independent-study",
+      "name": "Independent Study Contract",
+      "category": "Academic Management",
+      "description": "Independent study contract form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_independent_Study_contract_form.pdf",
+      "verified": true,
+      "fileName": "Independent-Study-Contract.pdf"
+    },
+    {
+      "id": "admission-recommendation",
+      "name": "Recommendation for Admission",
+      "category": "Academic Management",
+      "description": "Recommendation for admission form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Recommendation_for_Admissions_FILLABLE.pdf",
+      "verified": true,
+      "fileName": "Recommendation-for-Admission.pdf"
+    },
+    {
+      "id": "saac-request",
+      "name": "Request (Student Academic Affairs Committee)Leave of Absence, Deferral, Refund",
+      "category": "Academic Management",
+      "description": "Student Academic Affairs Committee request form for leave of absence, deferral or refund.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_FSAAC_FORM.pdf",
+      "verified": true,
+      "fileName": "Request-Student-Academic-Affairs-Committee-Leave-of-Absence-Deferral-Refund.pdf"
+    },
+    {
+      "id": "readmission",
+      "name": "Re-Admission Application",
+      "category": "Academic Management",
+      "description": "Re-admission application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_READMISSION_FORM.pdf",
+      "verified": true,
+      "fileName": "Re-Admission-Application.pdf"
+    },
+    {
+      "id": "withdrawal-module",
+      "name": "Withdrawal From Module",
+      "category": "Academic Management",
+      "description": "Withdrawal from module form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Withdrawal_from_Module_Form.pdf",
+      "verified": true,
+      "fileName": "Withdrawal-From-Module.pdf"
+    },
+    {
+      "id": "module-exemption",
+      "name": "Exemption from Module",
+      "category": "Academic Management",
+      "description": "Module exemption form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Exemption_form.pdf",
+      "verified": true,
+      "fileName": "Exemption-from-Module.pdf"
+    },
+    {
+      "id": "transfer-request",
+      "name": "Request for Transfer",
+      "category": "Academic Management",
+      "description": "Request for transfer form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Request_for_Transfer.pdf",
+      "verified": true,
+      "fileName": "Request-for-Transfer.pdf"
+    },
+    {
+      "id": "student-ambassador-2023",
+      "name": "Student Ambassador Application",
+      "category": "Academic Management",
+      "description": "Student Ambassador application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Student_Ambassador_Application_Form_2023_fillable.pdf",
+      "verified": true,
+      "fileName": "Student-Ambassador-Application.pdf",
+      "timeFrame": "Deadline October 2, 2023 (outdated form)"
+    },
+    {
+      "id": "transfer-credits",
+      "name": "Transfer of Credits",
+      "category": "Academic Management",
+      "description": "Transfer of credits application form.",
+      "requirements": [],
+      "method": "Download the official PDF.",
+      "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Transfer_of_Credits_Application_Form.pdf",
+      "verified": true,
+      "fileName": "Transfer-of-Credits.pdf"
     }
   ],
   "faculties": [
-    { "name": "Faculty of Engineering and Computing", "abbr": "FENC", "type": "Faculty", "description": "Engineering, computing and related technology programmes." },
-    { "name": "Faculty of the Built Environment", "abbr": "FOBE", "type": "Faculty", "description": "Architecture, construction, surveying and related programmes." },
-    { "name": "College of Business and Management", "abbr": "COBAM", "type": "College", "description": "Business and management programmes." },
-    { "name": "Faculty of Law", "abbr": "FOL", "type": "Faculty", "description": "Law programmes." },
-    { "name": "Faculty of Education and Liberal Studies", "abbr": "FELS", "type": "Faculty", "description": "Education and liberal studies programmes." },
-    { "name": "Faculty of Science and Sport", "abbr": "FOSS", "type": "Faculty", "description": "Science, sport and related programmes." },
-    { "name": "College of Health Sciences", "abbr": "CHS", "type": "College", "description": "Health-related programmes. Verify the current structure with the university." }
+    {
+      "name": "Faculty of Engineering and Computing",
+      "abbr": "FENC",
+      "type": "Faculty",
+      "description": "Engineering, computing and related technology programmes."
+    },
+    {
+      "name": "Faculty of the Built Environment",
+      "abbr": "FOBE",
+      "type": "Faculty",
+      "description": "Architecture, construction, surveying and related programmes."
+    },
+    {
+      "name": "College of Business and Management",
+      "abbr": "COBAM",
+      "type": "College",
+      "description": "Business and management programmes."
+    },
+    {
+      "name": "Faculty of Law",
+      "abbr": "FOL",
+      "type": "Faculty",
+      "description": "Law programmes."
+    },
+    {
+      "name": "Faculty of Education and Liberal Studies",
+      "abbr": "FELS",
+      "type": "Faculty",
+      "description": "Education and liberal studies programmes."
+    },
+    {
+      "name": "Faculty of Science and Sport",
+      "abbr": "FOSS",
+      "type": "Faculty",
+      "description": "Science, sport and related programmes."
+    },
+    {
+      "name": "College of Health Sciences",
+      "abbr": "CHS",
+      "type": "College",
+      "description": "Health-related programmes. Verify the current structure with the university."
+    }
   ],
   "guidance": [
     {
       "q": "I paid my fees but my account still shows a balance.",
       "a": "Payments can take time to post to your account.",
-      "steps": ["Keep your receipt or proof of payment.", "Allow the posting period advised by the university.", "If the balance remains, contact the Student Finance Department with your proof of payment and Student ID."]
+      "steps": [
+        "Keep your receipt or proof of payment.",
+        "Allow the posting period advised by the university.",
+        "If the balance remains, contact the Student Finance Department with your proof of payment and Student ID."
+      ]
     },
     {
       "q": "I cannot register because of a financial hold.",
       "a": "A hold usually means an outstanding balance or an unresolved account issue.",
-      "steps": ["Check your fee statement to see the balance.", "Clear the balance or arrange a payment plan.", "Submit proof of payment and ask for the hold to be reviewed."]
+      "steps": [
+        "Check your fee statement to see the balance.",
+        "Clear the balance or arrange a payment plan.",
+        "Submit proof of payment and ask for the hold to be reviewed."
+      ]
     },
     {
       "q": "I cannot pay my full fees at once.",
       "a": "You may be able to request a payment plan.",
-      "steps": ["Review your fee statement.", "Complete the Payment Plan Request form.", "Submit it to the Student Finance Department before the deadline."]
+      "steps": [
+        "Review your fee statement.",
+        "Complete the Payment Plan Request form.",
+        "Submit it to the Student Finance Department before the deadline."
+      ]
     },
     {
       "q": "I was charged incorrectly or was overcharged.",
       "a": "You can query the charge or request a refund.",
-      "steps": ["Gather your fee statement and receipts.", "Complete the Fee Adjustment / Query Form or the Refund Request form.", "Submit it to Student Finance and keep a copy."]
+      "steps": [
+        "Gather your fee statement and receipts.",
+        "Complete the Fee Adjustment / Query Form or the Refund Request form.",
+        "Submit it to Student Finance and keep a copy."
+      ]
     },
     {
       "q": "I lost my payment receipt.",
       "a": "You can ask for a copy.",
-      "steps": ["Note the approximate date and amount of the payment.", "Complete the Receipt / Statement Copy Request.", "Submit it to the Cashier / Payments Office."]
+      "steps": [
+        "Note the approximate date and amount of the payment.",
+        "Complete the Receipt / Statement Copy Request.",
+        "Submit it to the Cashier / Payments Office."
+      ]
     }
   ]
 }

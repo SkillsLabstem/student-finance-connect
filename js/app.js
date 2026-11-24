@@ -14,6 +14,7 @@
   function deptById(id) {
     return state.data.departments.filter(function (d) { return d.id === id; })[0];
   }
+  function localFormUrl(f) { return "assets/forms/" + encodeURIComponent(f.fileName || (f.id + ".pdf")); }
 
   // ---------- Data loading ----------
   function load() {
@@ -84,9 +85,12 @@
         '<span class="tag">' + esc(f.category) + "</span>" +
         "<h3>" + esc(f.name) + "</h3>" +
         "<p>" + esc(f.description) + "</p>" +
-        "<p><strong>Submit to:</strong> " + esc(dept ? dept.name : "To be confirmed") + "</p>" +
+        (f.timeFrame ? "<p><strong>Application period:</strong> " + esc(f.timeFrame) + "</p>" : "") +
+        (dept ? "<p><strong>Submit to:</strong> " + esc(dept.name) + "</p>" : "") +
         (f.verified ? "" : '<span class="tag warn">Unverified: confirm before use</span>') +
-        '<div class="actions"><button class="btn" data-form="' + esc(f.id) + '">View details</button></div>' +
+        '<div class="actions"><button class="btn" data-form="' + esc(f.id) + '">View details</button>' +
+        (f.sourceUrl ? '<a class="btn ghost" href="' + esc(localFormUrl(f)) + '" download>Download PDF</a>' : "") +
+        "</div>" +
         "</article>";
     }).join("") : '<p class="empty">No forms match your search.</p>';
   }
@@ -142,14 +146,18 @@
     var html = '<h3 id="modalTitle">' + esc(f.name) + "</h3>" +
       '<span class="tag">' + esc(f.category) + "</span>" +
       "<p>" + esc(f.description) + "</p>" +
-      "<h4>What you need</h4><ul>" +
-      f.requirements.map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ul>" +
+      (f.timeFrame ? "<p><strong>Application period:</strong> " + esc(f.timeFrame) + "</p>" : "") +
+      (f.requirements.length ? "<h4>What you need</h4><ul>" +
+        f.requirements.map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ul>" :
+        "<p>Read the official form for its current requirements and instructions.</p>") +
       "<h4>How to submit</h4><p>" + esc(f.method) + "</p>" +
       (f.notes ? "<p><em>" + esc(f.notes) + "</em></p>" : "") +
       (dept ? "<h4>Submit to: " + esc(dept.name) + "</h4><dl>" + contactRows(dept) + "</dl>" : "") +
       '<p class="notice">Verify this information with official UTech, Jamaica sources before submitting.</p>' +
       '<div class="actions" style="display:flex;gap:8px;flex-wrap:wrap">' +
       '<button class="btn" id="copyBtn">Copy checklist</button>' +
+      (f.sourceUrl ? '<a class="btn ghost" href="' + esc(localFormUrl(f)) + '" download>Download PDF</a>' : "") +
+      (f.sourceUrl ? '<a class="btn ghost" href="' + esc(f.sourceUrl) + '" target="_blank" rel="noopener noreferrer">View official source</a>' : "") +
       '<button class="btn ghost" id="printBtn">Print</button></div>' +
       '<p id="copyMsg" aria-live="polite"></p>';
     $("modalBody").innerHTML = html;
