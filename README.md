@@ -1,37 +1,36 @@
 # Student Finance Connect
 
-A student-focused information portal for the University of Technology, Jamaica (UTech).
+Student Finance Connect is an independent student-built information portal for
+University of Technology, Jamaica (UTech) resources. It is not an official
+UTech service.
 
-## Overview
+## Run locally
 
-Student Finance Connect aims to simplify access to Student Finance resources by providing a centralized platform where students can find official forms, understand their purposes, identify relevant departments, and access submission instructions.
+Use a static web server from the repository root:
 
-## Features
+```sh
+python3 -m http.server 8000
+```
 
-- Browse Student Finance forms and resources.
-- View form descriptions and submission requirements.
-- Access department contact information.
-- Browse university faculties and colleges.
-- Find guidance for common financial and payment-related issues.
+Open [http://localhost:8000/](http://localhost:8000/) in a browser. Do not open
+`index.html` with `file://`, because the application loads its catalogue with
+`fetch`.
 
-## Technologies
+## Project structure
 
-- HTML5
-- CSS3
-- JavaScript
-- JSON
+- `index.html` — single browser entry point and semantic page shell.
+- `css/style.css` — global styles, components, responsive layout, and themes.
+- `js/app.js` — data loading, rendering, search, filters, modal, copy, print,
+  navigation, and theme behavior.
+- `data/catalog.json` — sole runtime catalogue.
+- `assets/` — supplied source documents.
 
-## Project Status
+## Content status
 
-**In Development**
-
-The initial development focuses on building the core information portal and organizing university resources.
-
-## Disclaimer
-
-This is an independent student project and is not an official UTech Jamaica website or service.
-
-Information and submission instructions should be verified against official university sources.
+The initial catalogue contains sample and unverified content. Information must
+be confirmed against official UTech, Jamaica sources before it is treated as
+official. Do not add contacts, procedures, or form requirements without a
+recorded authoritative source.
 
 ## License
 

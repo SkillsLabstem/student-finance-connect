@@ -17,7 +17,7 @@
 
   // ---------- Data loading ----------
   function load() {
-    fetch("data.json")
+    fetch("data/catalog.json")
       .then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
@@ -27,7 +27,7 @@
         init();
       })
       .catch(function (err) {
-        var msg = "Could not load data.json (" + err.message + "). " +
+        var msg = "Could not load data/catalog.json (" + err.message + "). " +
           "If you opened index.html directly from a folder, run a local server instead, " +
           "for example: python -m http.server, then visit http://localhost:8000.";
         document.querySelector("main").insertAdjacentHTML(
@@ -118,14 +118,18 @@
     });
     $("facultyGrid").innerHTML = list.length ? list.map(function (f) {
       return '<article class="card"><span class="tag">' + esc(f.type) + "</span>" +
-        "<h3>" + esc(f.name) + " (" + esc(f.abbr) + ")</h3><p>" + esc(f.description) + "</p></article>";
+        "<h3>" + esc(f.name) + " (" + esc(f.abbr) + ")</h3><p>" + esc(f.description) + "</p>" +
+        (f.verified ? "" : '<span class="tag warn">Unverified: confirm before use</span>') +
+        "</article>";
     }).join("") : '<p class="empty">No faculties match your search.</p>';
   }
 
   function renderFaq() {
     $("faq").innerHTML = state.data.guidance.map(function (g) {
       return "<details><summary>" + esc(g.q) + "</summary><p>" + esc(g.a) + "</p><ol>" +
-        g.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol></details>";
+        g.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>" +
+        (g.verified ? "" : '<span class="tag warn">Unverified guidance: confirm before use</span>') +
+        "</details>";
     }).join("");
   }
 

@@ -77,6 +77,16 @@ button, select, input { font: inherit; }
 }
 .hero h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.2; }
 .hero p { margin: 0 0 22px; max-width: 640px; opacity: .92; }
+.hero .catalogue-status {
+  margin: -6px 0 22px;
+  max-width: 760px;
+  opacity: 1;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,.38);
+  border-radius: 8px;
+  background: rgba(0,0,0,.16);
+  font-size: .92rem;
+}
 .search { display: flex; gap: 8px; max-width: 640px; }
 .search input {
   flex: 1; padding: 12px 14px; border-radius: 10px; border: 0; font-size: 1rem;
