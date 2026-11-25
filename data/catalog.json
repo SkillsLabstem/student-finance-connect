@@ -54,7 +54,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_APPLICATIONForm_fillable.pdf",
       "verified": true,
-      "fileName": "Undergraduate-Application-Form.pdf"
+      "fileName": "Undergraduate-Application-Form.pdf",
+      "directoryDepartmentId": "general"
     },
     {
       "id": "graduate-application",
@@ -65,7 +66,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_GraduateApplicationForm_FILLABLE.pdf",
       "verified": true,
-      "fileName": "Graduate-Application-Form.pdf"
+      "fileName": "Graduate-Application-Form.pdf",
+      "directoryDepartmentId": "general"
     },
     {
       "id": "boarding-application",
@@ -76,7 +78,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_BoardingApplication.pdf",
       "verified": true,
-      "fileName": "Boarding-Application.pdf"
+      "fileName": "Boarding-Application.pdf",
+      "directoryDepartmentId": "general"
     },
     {
       "id": "general-request",
@@ -99,7 +102,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Lunch-Application-Form-Updated-08.7.2026.pdf",
       "verified": true,
       "fileName": "Welfare-Lunch-Application.pdf",
-      "timeFrame": "Opens September 1; closes September 25, 2026"
+      "timeFrame": "Opens September 1; closes September 25, 2026",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "graduate-welfare-lunch",
@@ -111,7 +115,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Lunch-Application-Form-Updated-10.9.2025.pdf",
       "verified": true,
       "fileName": "Graduate-Welfare-Lunch-Application.pdf",
-      "timeFrame": "Opens September 1; closes September 25, 2026"
+      "timeFrame": "Opens September 1; closes September 25, 2026",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "welfare-grant",
@@ -123,7 +128,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Grant-Application-Form-Updated-08.07.2026.pdf",
       "verified": true,
       "fileName": "Welfare-Grant-Application.pdf",
-      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page"
+      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "graduate-welfare-grant",
@@ -135,7 +141,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Grant-Form-Updated-08.07.2026.pdf",
       "verified": true,
       "fileName": "Graduate-Welfare-Grant-Application.pdf",
-      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page"
+      "timeFrame": "Opens September 14, 2026; closing date not stated on the first page",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "payment-error",
@@ -146,7 +153,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Transfer_Agency_or_Online_Payment_Error_Revised_06.09.2020_compressed.pdf",
       "verified": true,
-      "fileName": "Agency-or-online-payment-error-form.pdf"
+      "fileName": "Agency-or-online-payment-error-form.pdf",
+      "directoryDepartmentId": "student-finance-forms"
     },
     {
       "id": "sponsor-credit",
@@ -157,7 +165,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Transfer_Sponsor_or_Donor_Credit_Balance_Revised_06.09.2020_compressed.pdf",
       "verified": true,
-      "fileName": "Sponsor-or-Donor-Credit-Balance.pdf"
+      "fileName": "Sponsor-or-Donor-Credit-Balance.pdf",
+      "directoryDepartmentId": "student-finance-forms"
     },
     {
       "id": "earn-study-application",
@@ -169,7 +178,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/07/Earn-Study-Application-Form-Semester-12-2026-27.pdf",
       "verified": true,
       "fileName": "Earn-and-Study-Application-Semester-1-2.pdf",
-      "timeFrame": "Opens August 3, 2026; closes August 31, 2026"
+      "timeFrame": "Opens August 3, 2026; closes August 31, 2026",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "earn-study-tuition",
@@ -180,7 +190,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_DSFEarn_StudyTuition_Payment.pdf",
       "verified": true,
-      "fileName": "Earn-and-Study-Tuition-Payment.pdf"
+      "fileName": "Earn-and-Study-Tuition-Payment.pdf",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "graduate-assistantship",
@@ -191,7 +202,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Graduate-Assistantship-Programme-Earn-and-Study.pdf",
       "verified": true,
-      "fileName": "Earn-and-Study-Graduate-Assistantship.pdf"
+      "fileName": "Earn-and-Study-Graduate-Assistantship.pdf",
+      "directoryDepartmentId": "welfare"
     },
     {
       "id": "student-medical",
@@ -202,7 +214,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_MedicalForm_Students_NEW_AY_2023.pdf",
       "verified": true,
-      "fileName": "Student-Medical-AY-2023.pdf"
+      "fileName": "Student-Medical-AY-2023.pdf",
+      "directoryDepartmentId": "general"
     },
     {
       "id": "financial-letter",
@@ -213,7 +226,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2025/07/UTech_Financial_Letter_or_Statement_Request_Revised_06.09.2020_compressed.pdf",
       "verified": true,
-      "fileName": "Financial-Letter-or-Statement-Request.pdf"
+      "fileName": "Financial-Letter-or-Statement-Request.pdf",
+      "directoryDepartmentId": "student-finance-forms"
     },
     {
       "id": "general-scholarship-2026",
@@ -225,7 +239,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/05/General-Scholarship-Application-Form-2026-2027.pdf",
       "verified": true,
       "fileName": "General-Scholarship-Application-Form-2026-2027.pdf",
-      "timeFrame": "2026–2027 academic year; separate application deadlines vary (see official form)"
+      "timeFrame": "2026–2027 academic year; separate application deadlines vary (see official form)",
+      "directoryDepartmentId": "scholarships"
     },
     {
       "id": "stem-scholarship",
@@ -236,7 +251,8 @@
       "method": "Download the official PDF.",
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/06/STEM.Scholarship.ApplicationForm.pdf",
       "verified": true,
-      "fileName": "STEM-Scholarship-Application-Form.pdf"
+      "fileName": "STEM-Scholarship-Application-Form.pdf",
+      "directoryDepartmentId": "scholarships"
     },
     {
       "id": "scholarship-list-2026",
@@ -248,7 +264,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/07/Scholarship-List-By-Faculty-2026-2027-AY-Revised-July.pdf",
       "verified": true,
       "fileName": "Scholarship-List-By-Faculty-2026-2027-Academic-Year.pdf",
-      "timeFrame": "Opens May 25, 2026; closes July 31, 2026 for returning students and August 31, 2026 for new students"
+      "timeFrame": "Opens May 25, 2026; closes July 31, 2026 for returning students and August 31, 2026 for new students",
+      "directoryDepartmentId": "scholarships"
     },
     {
       "id": "path-bursary",
@@ -260,7 +277,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/08/PATH.Bursary.Application.Form_.pdf",
       "verified": true,
       "fileName": "PATH-Bursary-Application-Applications-close-Sept-30-2026.pdf",
-      "timeFrame": "Deadline September 30, 2026"
+      "timeFrame": "Deadline September 30, 2026",
+      "directoryDepartmentId": "scholarships"
     },
     {
       "id": "student-ambassador-2026",
@@ -272,7 +290,8 @@
       "sourceUrl": "https://www.utech.edu.jm/storage/2026/09/Student-Ambassador-Application-Form-2026.pdf",
       "verified": true,
       "fileName": "Student-Ambassador-Application-Deadline-Oct-02-2026.pdf",
-      "timeFrame": "Deadline October 2, 2026"
+      "timeFrame": "Deadline October 2, 2026",
+      "directoryDepartmentId": "general"
     },
     {
       "id": "grade-forgiveness",
@@ -475,6 +494,24 @@
         "Complete the Receipt / Statement Copy Request.",
         "Submit it to the Cashier / Payments Office."
       ]
+    }
+  ],
+  "formDepartments": [
+    {
+      "id": "general",
+      "name": "General"
+    },
+    {
+      "id": "welfare",
+      "name": "Welfare"
+    },
+    {
+      "id": "scholarships",
+      "name": "Scholarships"
+    },
+    {
+      "id": "student-finance-forms",
+      "name": "Student Finance"
     }
   ]
 }

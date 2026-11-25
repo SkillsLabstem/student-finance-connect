@@ -11,7 +11,7 @@
   <a class="skip" href="#main">Skip to content</a>
 
   <div class="banner" role="note">
-    Independent student project. Not an official UTech, Jamaica website. 
+    Independent student project. Not an official UTech, Jamaica website.
   </div>
 
   <header class="site-header">
@@ -23,7 +23,7 @@
       <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
       <nav id="nav" class="nav" aria-label="Main">
         <a href="#forms">Forms</a>
-        <a href="#departments">Departments</a>
+        <a href="#departments">Contacts</a>
         <a href="#faculties">Faculties</a>
         <a href="#help">Help</a>
         <button id="themeBtn" class="theme-btn" aria-label="Toggle dark mode">Dark</button>
@@ -35,29 +35,28 @@
     <section id="home" class="hero">
       <div class="wrap">
         <h1>Find the right form. Reach the right office.</h1>
-        <p>Student Finance Connect brings official UTech form links, contacts and common payment guidance into one place.</p>
+        <p>Search UTech form links and browse the departments and guidance in this independent student resource.</p>
         <p class="catalogue-status" role="note"><strong>Catalogue status:</strong> 30 official UTech form links were indexed on November 24, 2026. Confirm deadlines and instructions in each original form before acting.</p>
-        <form class="search" id="globalSearchForm" role="search">
-          <label for="globalSearch" class="sr">Search forms, departments and help</label>
-          <input id="globalSearch" type="search" placeholder="Search e.g. refund, payment plan, hold..." autocomplete="off">
-          <button type="submit">Search</button>
-        </form>
-        <div id="searchResults" class="search-results" aria-live="polite"></div>
+        <div class="search" role="search">
+          <label for="globalSearch" class="sr">Search forms and departments</label>
+          <input id="globalSearch" type="search" placeholder="Search a form, keyword or department…" autocomplete="off" aria-controls="searchResults" aria-autocomplete="list">
+          <button type="button" id="clearSearch" hidden aria-label="Clear search">Clear</button>
+        </div>
+        <div id="searchResults" class="search-results" aria-live="polite" hidden></div>
+        <div id="popularForm" class="popular-form"></div>
         <div class="stats" id="stats"></div>
       </div>
     </section>
 
     <section id="forms" class="section">
       <div class="wrap">
-        <h2>Forms &amp; Resources</h2>
-        <p class="lead">Browse all forms listed on UTech's official Forms page and open the original resource.</p>
-        <div class="toolbar">
-          <label class="sr" for="formFilter">Filter forms</label>
-          <input id="formFilter" type="search" placeholder="Filter forms by name or keyword">
-          <label class="sr" for="categoryFilter">Category</label>
-          <select id="categoryFilter"><option value="all">All categories</option></select>
+        <h2>Forms</h2>
+        <div class="form-directory-controls">
+          <label for="formDepartment">Department</label>
+          <select id="formDepartment" aria-controls="formsGrid"></select>
         </div>
-        <div id="formsGrid" class="grid" aria-live="polite"></div>
+        <p class="lead">Browse official forms by department, or use search above to find a form across the catalogue.</p>
+        <div id="formsGrid" class="compact-list" aria-live="polite"></div>
       </div>
     </section>
 
